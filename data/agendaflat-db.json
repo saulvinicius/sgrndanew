@@ -1,0 +1,538 @@
+{
+  "profiles": [],
+  "businesses": [
+    {
+      "id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Aurora Barbearia & Bem-Estar",
+      "slug": "aurora-barbearia",
+      "segment": "Barbearia",
+      "phone": "(11) 99420-8810",
+      "address": "Rua dos Pinheiros, 612 — Pinheiros, São Paulo/SP",
+      "logo_url": "/src/assets/images/hero_agendaflat_studio_1795394146079.jpg",
+      "description": "Cortes precisos, barboterapia e cuidados masculinos em ambiente calmo e pontual.",
+      "timezone": "America/Sao_Paulo",
+      "status": "active",
+      "min_advance_minutes": 60,
+      "max_future_days": 30,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "name": "Estúdio Luana Silva",
+      "slug": "luana-estetica",
+      "segment": "Estética",
+      "phone": "(11) 98712-3409",
+      "address": "Av. Paulista, 1471, Conj. 84 — Bela Vista, São Paulo/SP",
+      "logo_url": "/src/assets/images/pro_estetica_camila_1795394147902.jpg",
+      "description": "Estética facial, drenagem linfática e design de sobrancelhas com atendimento individualizado.",
+      "timezone": "America/Sao_Paulo",
+      "status": "active",
+      "min_advance_minutes": 60,
+      "max_future_days": 30,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "business_members": [],
+  "services": [
+    {
+      "id": "df69f2df-a1df-4801-b041-89cc011ff8ad",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Corte Masculino",
+      "description": "Corte na tesoura ou máquina com lavagem e finalização.",
+      "price_cents": 6500,
+      "duration_minutes": 45,
+      "buffer_minutes": 0,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "3b17b1ab-1bf4-4b38-af42-71aa56b1f0f3",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Barba Completa",
+      "description": "Toalha quente, navalha e hidratação com óleo essencial.",
+      "price_cents": 4500,
+      "duration_minutes": 30,
+      "buffer_minutes": 0,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "793006d6-ee3d-4c8d-bcbf-565e4cbdd450",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Corte + Barba",
+      "description": "Pacote completo com alinhamento e relaxamento facial.",
+      "price_cents": 9500,
+      "duration_minutes": 75,
+      "buffer_minutes": 15,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "a6c33b92-7da9-4b05-9f12-1f2247d4756f",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Massagem Express Cervical",
+      "description": "Alívio rápido de tensão em ombros e pescoço.",
+      "price_cents": 7000,
+      "duration_minutes": 30,
+      "buffer_minutes": 0,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "292fff01-3456-48fd-b8f3-8694cacd055d",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "name": "Limpeza de Pele Profunda",
+      "description": "Higienização, extração suave, alta frequência e máscara calmante.",
+      "price_cents": 15000,
+      "duration_minutes": 60,
+      "buffer_minutes": 15,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "46cd92fe-6f72-4b15-a9a1-c7f8c925b003",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "name": "Drenagem Linfática Facial",
+      "description": "Redução de retenção hídrica e revitalização do contorno facial.",
+      "price_cents": 13000,
+      "duration_minutes": 45,
+      "buffer_minutes": 0,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "7dab9000-058a-4591-83b4-54fe22395d23",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "name": "Design de Sobrancelhas",
+      "description": "Mapeamento facial personalizado com pinça e acabamento natural.",
+      "price_cents": 6000,
+      "duration_minutes": 30,
+      "buffer_minutes": 0,
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "professionals": [
+    {
+      "id": "f73221ca-7130-465a-8ed5-41a174b3a58f",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Lucas Mendes",
+      "photo_url": "/src/assets/images/pro_barber_lucas_1795394148012.jpg",
+      "description": "Especialista em visagismo masculino e cortes clássicos.",
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "e9313005-4525-4b11-9a04-88d2bc3819f2",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Rafael Costa",
+      "photo_url": "/src/assets/images/pro_personal_rafael_1795394147508.jpg",
+      "description": "Barbeiro e terapeuta corporal focado em bem-estar.",
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "48b41714-31a8-42f8-bdac-1a62792d310b",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "name": "Luana Silva",
+      "photo_url": "/src/assets/images/pro_estetica_camila_1795394147902.jpg",
+      "description": "Esteticista graduada com 8 anos de prática clínica.",
+      "active": true,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "professional_services": [
+    {
+      "id": "68666da5-c1e6-4b92-8f88-682538ab5026",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": "f73221ca-7130-465a-8ed5-41a174b3a58f",
+      "service_id": "df69f2df-a1df-4801-b041-89cc011ff8ad",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "8aaf36bf-4b16-4696-bbaa-13ed0b89540c",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": "f73221ca-7130-465a-8ed5-41a174b3a58f",
+      "service_id": "3b17b1ab-1bf4-4b38-af42-71aa56b1f0f3",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "5e70ada6-2f7a-4b4b-a605-b78038af0480",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": "f73221ca-7130-465a-8ed5-41a174b3a58f",
+      "service_id": "793006d6-ee3d-4c8d-bcbf-565e4cbdd450",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "3c19d1e0-5450-44a7-b8bf-9636165aae5b",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": "e9313005-4525-4b11-9a04-88d2bc3819f2",
+      "service_id": "df69f2df-a1df-4801-b041-89cc011ff8ad",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "2acea507-1a39-49d1-b232-aea3c8a5ed3e",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": "e9313005-4525-4b11-9a04-88d2bc3819f2",
+      "service_id": "a6c33b92-7da9-4b05-9f12-1f2247d4756f",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "e48b406b-9594-460d-ae11-08e59e7604b0",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": "48b41714-31a8-42f8-bdac-1a62792d310b",
+      "service_id": "292fff01-3456-48fd-b8f3-8694cacd055d",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "b09c5155-ebc1-49aa-a214-e6ce104e31ed",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": "48b41714-31a8-42f8-bdac-1a62792d310b",
+      "service_id": "46cd92fe-6f72-4b15-a9a1-c7f8c925b003",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "6d694f26-17e7-4145-93c1-414273cf73ea",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": "48b41714-31a8-42f8-bdac-1a62792d310b",
+      "service_id": "7dab9000-058a-4591-83b4-54fe22395d23",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "working_hours": [
+    {
+      "id": "2e08dabf-fab0-4104-91cf-d73b0b923a32",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 0,
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "is_closed": true
+    },
+    {
+      "id": "2b867efe-2d68-4f6b-80a8-cd63c014d5ec",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 1,
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "is_closed": false
+    },
+    {
+      "id": "a1b4eaff-9e54-4fa3-94ba-7a0a95ef3c52",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 2,
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "is_closed": false
+    },
+    {
+      "id": "a05b1316-e325-437e-aeb1-5422ec003d1a",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 3,
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "is_closed": false
+    },
+    {
+      "id": "48650ee1-0c79-4477-a9e3-73b39139988c",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 4,
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "is_closed": false
+    },
+    {
+      "id": "8430b261-89a7-4d4f-8722-54309b4f3953",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 5,
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "is_closed": false
+    },
+    {
+      "id": "9b0aeb17-87a9-4c8c-a0d1-8ad933202a9f",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "professional_id": null,
+      "day_of_week": 6,
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "is_closed": false
+    },
+    {
+      "id": "d9925f44-4bc1-4b80-b056-2b6fc08aa01d",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 0,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": true
+    },
+    {
+      "id": "3e9f1bf8-5040-479e-84d9-c7bfa30bde98",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 1,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": true
+    },
+    {
+      "id": "a461129e-8fe3-4f42-ada7-c87b01ddf217",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 2,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": false
+    },
+    {
+      "id": "9d7f2500-92e4-457e-af69-93f100160cab",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 3,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": false
+    },
+    {
+      "id": "e8ca1841-0490-450d-aa6c-f7a56bb1b3bd",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 4,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": false
+    },
+    {
+      "id": "271e95a7-86c0-447f-a003-9aeba0ba3dc3",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 5,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": false
+    },
+    {
+      "id": "4e14c052-4224-4bbe-b66b-ebcb30991e8e",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "professional_id": null,
+      "day_of_week": 6,
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "is_closed": false
+    }
+  ],
+  "blocked_times": [],
+  "business_date_exceptions": [],
+  "customers": [
+    {
+      "id": "1713c5ad-f515-4928-8074-670f495515ed",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Henrique Almeida",
+      "phone": "(11) 99123-4567",
+      "email": "henrique.almeida@exemplo.com.br",
+      "notes": "Prefere acabamento na tesoura.",
+      "consent_at": "2026-11-23T00:43:31.586Z",
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "843e822d-9077-46d7-ab15-bec63f50c0d3",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "name": "Bruno Carvalho",
+      "phone": "(11) 98234-5678",
+      "email": "",
+      "notes": "",
+      "consent_at": "2026-11-23T00:43:31.586Z",
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "8b111483-b10f-4597-9e67-909d05473367",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "name": "Marina Ferreira",
+      "phone": "(11) 99654-3210",
+      "email": "marina.f@exemplo.com.br",
+      "notes": "Pele sensível.",
+      "consent_at": "2026-11-23T00:43:31.586Z",
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "0499798e-6baf-42d7-a401-a9278c7f035f",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "customer_id": "1713c5ad-f515-4928-8074-670f495515ed",
+      "professional_id": "f73221ca-7130-465a-8ed5-41a174b3a58f",
+      "service_id": "3b17b1ab-1bf4-4b38-af42-71aa56b1f0f3",
+      "service_name_snapshot": "Barba Completa",
+      "price_cents_snapshot": 4500,
+      "duration_minutes_snapshot": 30,
+      "buffer_minutes_snapshot": 0,
+      "start_at": "2026-11-23T17:20:00.000Z",
+      "end_at": "2026-11-23T17:50:00.000Z",
+      "status": "confirmed",
+      "origin": "admin",
+      "cancel_token": "u2TYgJC1bRNd9V3g0Nuews03nk0",
+      "notes": "Reserva demonstrativa das 14:20 às 14:50",
+      "history": [
+        {
+          "at": "2026-11-23T00:43:31.586Z",
+          "action": "created",
+          "actor": "admin"
+        }
+      ],
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "8fa7dc2e-572c-41ea-b74e-7c85ef4fb6b9",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "customer_id": "843e822d-9077-46d7-ab15-bec63f50c0d3",
+      "professional_id": "f73221ca-7130-465a-8ed5-41a174b3a58f",
+      "service_id": "df69f2df-a1df-4801-b041-89cc011ff8ad",
+      "service_name_snapshot": "Corte Masculino",
+      "price_cents_snapshot": 6500,
+      "duration_minutes_snapshot": 45,
+      "buffer_minutes_snapshot": 0,
+      "start_at": "2026-11-23T13:00:00.000Z",
+      "end_at": "2026-11-23T13:45:00.000Z",
+      "status": "confirmed",
+      "origin": "public",
+      "cancel_token": "tbIoCmujY5sx7Vja2LvZri7DTDE",
+      "notes": "",
+      "history": [
+        {
+          "at": "2026-11-23T00:43:31.586Z",
+          "action": "created",
+          "actor": "public"
+        }
+      ],
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "4c768892-4f94-4169-bc6e-56801289c45c",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "customer_id": "8b111483-b10f-4597-9e67-909d05473367",
+      "professional_id": "48b41714-31a8-42f8-bdac-1a62792d310b",
+      "service_id": "292fff01-3456-48fd-b8f3-8694cacd055d",
+      "service_name_snapshot": "Limpeza de Pele Profunda",
+      "price_cents_snapshot": 15000,
+      "duration_minutes_snapshot": 60,
+      "buffer_minutes_snapshot": 15,
+      "start_at": "2026-11-24T18:00:00.000Z",
+      "end_at": "2026-11-24T19:00:00.000Z",
+      "status": "confirmed",
+      "origin": "public",
+      "cancel_token": "eP0-kmPQ9vbL-f7Yi9y48ozcmIw",
+      "notes": "",
+      "history": [
+        {
+          "at": "2026-11-23T00:43:31.586Z",
+          "action": "created",
+          "actor": "public"
+        }
+      ],
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "ade50afd-f393-415b-9c5d-623e3f0bab76",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "plan_name": "Plano Profissional AgendaFlat",
+      "price_cents": 1990,
+      "status": "authorized",
+      "provider": "mercadopago",
+      "external_id": "mp_pre_e8ba8215",
+      "current_period_end": "2026-12-19T00:43:31.632Z",
+      "cancel_at_period_end": false,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "a51d0258-d09b-483b-aad0-52baa9b3003d",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "plan_name": "Plano Profissional AgendaFlat",
+      "price_cents": 1990,
+      "status": "authorized",
+      "provider": "mercadopago",
+      "external_id": "mp_pre_6a9e5b5a",
+      "current_period_end": "2026-12-19T00:43:31.632Z",
+      "cancel_at_period_end": false,
+      "created_at": "2026-11-23T00:43:31.586Z",
+      "updated_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "dcf72916-eb95-48e0-b8db-713f8ba10d61",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "subscription_id": "ade50afd-f393-415b-9c5d-623e3f0bab76",
+      "amount_cents": 1990,
+      "currency": "BRL",
+      "status": "approved",
+      "provider_payment_id": "mp_pay_fa30107a69",
+      "paid_at": "2026-11-23T00:43:31.586Z",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "a349c3e6-9ff4-48f6-b90c-7f1687242902",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "subscription_id": "a51d0258-d09b-483b-aad0-52baa9b3003d",
+      "amount_cents": 1990,
+      "currency": "BRL",
+      "status": "approved",
+      "provider_payment_id": "mp_pay_37041006bb",
+      "paid_at": "2026-11-23T00:43:31.586Z",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "webhook_events": [],
+  "audit_logs": [
+    {
+      "id": "41a1713d-433c-4d7f-b3b3-aeab970fbbac",
+      "business_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "actor_id": "system",
+      "actor_email": "sistema@agendaflat.com.br",
+      "action": "business.activated",
+      "target_type": "business",
+      "target_id": "e8ba8215-5bf8-4e0d-875c-b4404795f4f0",
+      "details": "Estabelecimento demonstrativo inicializado com assinatura ativa.",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    },
+    {
+      "id": "8a06a10f-b51b-426f-9ed9-c3bd4980787a",
+      "business_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "actor_id": "system",
+      "actor_email": "sistema@agendaflat.com.br",
+      "action": "business.activated",
+      "target_type": "business",
+      "target_id": "6a9e5b5a-9d69-478a-b01d-8ba0f05be011",
+      "details": "Estabelecimento demonstrativo inicializado com assinatura ativa.",
+      "created_at": "2026-11-23T00:43:31.586Z"
+    }
+  ],
+  "platform_admins": [],
+  "password_resets": []
+}

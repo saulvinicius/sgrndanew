@@ -1,0 +1,6 @@
+{
+  "name": "AgendaFlat",
+  "description": "Plataforma SaaS multi-tenant de agendamento online para pequenos negócios e profissionais autônomos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
