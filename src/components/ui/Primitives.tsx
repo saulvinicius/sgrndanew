@@ -1,6 +1,8 @@
+'use client';
+
 import React, { useState } from 'react';
 import { AlertCircle, CheckCircle2, Clock, Ban, X } from 'lucide-react';
-import { getStatusLabel } from '../../lib/format.ts';
+import { getStatusLabel } from '@/src/lib/format';
 
 export function Button({
   variant = 'primary',

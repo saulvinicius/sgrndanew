@@ -54,15 +54,15 @@ export const SEGMENTS = [
 export const STUDIO_AVATARS = [
   {
     label: 'Retrato Barbeiro (Lucas)',
-    url: '/src/assets/images/pro_barber_lucas_1795394148012.jpg',
+    url: '/images/pro_barber_lucas_1795394148012.jpg',
   },
   {
     label: 'Retrato Estética (Luana)',
-    url: '/src/assets/images/pro_estetica_camila_1795394147902.jpg',
+    url: '/images/pro_estetica_camila_1795394147902.jpg',
   },
   {
     label: 'Retrato Coach / Terapeuta (Rafael)',
-    url: '/src/assets/images/pro_personal_rafael_1795394147508.jpg',
+    url: '/images/pro_personal_rafael_1795394147508.jpg',
   },
 ] as const;
 

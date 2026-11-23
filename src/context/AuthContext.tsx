@@ -1,5 +1,7 @@
+'use client';
+
 import React, { createContext, useCallback, useContext, useState } from 'react';
-import { apiRequest, setOwnerToken } from '../lib/api.ts';
+import { apiRequest, setOwnerToken } from '@/src/lib/api';
 
 export interface AuthUser {
   id: string;
